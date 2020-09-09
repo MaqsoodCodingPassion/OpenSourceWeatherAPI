@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5679bf1-8d68-44e6-bf2e-0d36c3bcc211" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -9,6 +10,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Android-OS-10" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -106,6 +108,28 @@
       <option name="presentableId" value="Default" />
       <updated>1599642356734</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added project to git">
+      <created>1599642405773</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599642405773</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added project to git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added project to git" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="364" y="111" key="CommitChangelistDialog2" timestamp="1599642405599">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="364" y="111" key="CommitChangelistDialog2/3600.23.1920.1057/1680.23.1920.1057/0.23.1680.972@0.23.1680.972" timestamp="1599642405599" />
+    <state x="440" y="249" key="Vcs.Push.Dialog.v2" timestamp="1599642413341">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="440" y="249" key="Vcs.Push.Dialog.v2/3600.23.1920.1057/1680.23.1920.1057/0.23.1680.972@0.23.1680.972" timestamp="1599642413341" />
   </component>
 </project>
