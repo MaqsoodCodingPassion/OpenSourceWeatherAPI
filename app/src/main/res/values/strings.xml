@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="latLong">Longitude: %.3f, Latitude: %.3f</string>
+    <string name="enable_gps">Please enable your gps</string>
+    <string name="permission_request">App requires location permission</string>
+    <string name="open_location_settings">open location settings</string>
+    <string name="gps_network_not_enabled">Please enable/switch on GPS in the settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="country">Country :</string>
+    <string name="current_weather">Show Current Weather</string>
+
+    <string name="Latitude">Latitude :</string>
+    <string name="Longitude">Longitude :</string>
+    <string name="Description">Description :</string>
+    <string name="Temperature">Temperature :</string>
+    <string name="min">Min :</string>
+    <string name="max">Max :</string>
+    <string name="wind">Wind :</string>
+    <string name="date">Date :</string>
+    <string name="Visibility">Visibility :</string>
+    <string name="Humidity">Humidity :</string>
+    <string name="Pressure">Pressure :</string>
+    <string name="Speed">Speed :</string>
+    <string name="Weather">Weather :</string>
+    <string name="placeName">PlaceName :</string>
+    <string name="icon">Weather view :</string>
+    <string name="searchHint">Enter the cities name with comma</string>
+    <string name="minimum3CityNamesHint">Please enter the minimum 3 cities separated with comma</string>
+    <string name="cityNamesExceedHint">Please do not enter more than 7 cities</string>
+    <string name="multipleCityNamesHint">Please enter the minimum 3 cities and max 7 with separated comma</string>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "coord": {
+    "lon": 77.65,
+    "lat": 12.97
+  },
+  "weather": [
+    {
+      "id": 802,
+      "main": "Clouds",
+      "description": "scattered clouds",
+      "icon": "03n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 298.01,
+    "pressure": 1017,
+    "humidity": 64,
+    "temp_min": 296.15,
+    "temp_max": 299.26
+  },
+  "visibility": 6000,
+  "wind": {
+    "speed": 2.6,
+    "deg": 100
+  },
+  "clouds": {
+    "all": 40
+  },
+  "dt": 1575896219,
+  "sys": {
+    "type": 1,
+    "id": 9208,
+    "country": "IN",
+    "sunrise": 1575853206,
+    "sunset": 1575894189
+  },
+  "timezone": 19800,
+  "id": 1277333,
+  "name": "Bangalore",
+  "cod": 200
+}

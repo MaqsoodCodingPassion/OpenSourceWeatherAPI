@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/temp"
+            android:textColor="@color/font_color"
+            style="@style/text_style"
+            android:text="@string/Temperature" />
+
+        <TextView
+            android:id="@+id/tempVal"
+            style="@style/text_style"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/temp"/>
+
+        <TextView
+            android:id="@+id/minLabel"
+            style="@style/text_style"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tempVal"
+            android:text="@string/min" />
+
+        <TextView
+            android:id="@+id/minVal"
+            style="@style/text_style"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/minLabel"/>
+
+        <TextView
+            android:id="@+id/maxLabel"
+            style="@style/text_style"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/minVal"
+            android:text="@string/max" />
+
+        <TextView
+            android:id="@+id/maxVal"
+            style="@style/text_style"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/maxLabel"/>
+
+        <TextView
+            style="@style/text_style"
+            android:id="@+id/weather"
+            android:layout_below="@id/temp"
+            android:layout_marginTop="5dp"
+            android:text="@string/Weather" />
+
+        <TextView
+            android:id="@+id/weatherVal"
+            style="@style/text_style"
+            android:layout_below="@id/temp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/weather"/>
+
+        <TextView
+            android:id="@+id/wind"
+            style="@style/text_style"
+            android:layout_below="@id/weather"
+            android:layout_marginTop="5dp"
+            android:text="@string/wind" />
+
+        <TextView
+            android:id="@+id/windVal"
+            style="@style/text_style"
+            android:layout_below="@id/weather"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/wind"/>
+
+        <TextView
+            android:id="@+id/date"
+            style="@style/text_style"
+            android:layout_below="@id/wind"
+            android:layout_marginTop="5dp"
+            android:text="@string/date" />
+
+        <TextView
+            android:id="@+id/dateVal"
+            style="@style/text_style"
+            android:layout_below="@id/wind"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/date"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/parenLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/step1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Step1#"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/citiesField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/step1"
+            android:focusable="true"
+            android:fontFamily="@font/roboto_bold"
+            android:iconifiedByDefault="false"
+            android:textSize="16sp"
+            app:defaultQueryHint="@string/searchHint" />
+
+        <Button
+            android:id="@+id/searchBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/citiesField"
+            android:layout_marginTop="12dp"
+            android:text="Search" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/citiesRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/searchBtn"
+            android:layout_marginTop="12dp"
+            android:background="#fafafa" />
+
+        <TextView
+            android:id="@+id/step2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/citiesRecyclerView"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Step2#"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/cityLabel"
+            style="@style/text_style"
+            android:layout_below="@+id/step2"
+            android:layout_marginTop="10dp"
+            android:text="Current city : " />
+
+        <TextView
+            android:id="@+id/cityName"
+            style="@style/text_style"
+            android:layout_below="@+id/step2"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/cityLabel" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/cityName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/fiveDaysDataRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cityLabel"
+            android:layout_marginTop="12dp"
+            android:background="#fafafa" />
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
+
+

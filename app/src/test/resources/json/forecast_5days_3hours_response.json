@@ -1,0 +1,49 @@
+{
+  "cod": "200",
+  "message": 0,
+  "cnt": 40,
+  "list": [{
+    "dt": 1580731200,
+    "main": {
+      "temp": 276.97,
+      "feels_like": 273.22,
+      "temp_min": 276.97,
+      "temp_max": 278.82,
+      "pressure": 1020,
+      "sea_level": 1020,
+      "grnd_level": 1011,
+      "humidity": 65,
+      "temp_kf": -1.85
+    },
+    "weather": [{
+      "id": 801,
+      "main": "Clouds",
+      "description": "few clouds",
+      "icon": "02n"
+    }],
+    "clouds": {
+      "all": 11
+    },
+    "wind": {
+      "speed": 2.1,
+      "deg": 330
+    },
+    "sys": {
+      "pod": "n"
+    },
+    "dt_txt": "2020-02-03 12:00:00"
+  }],
+  "city": {
+    "id": 5375480,
+    "name": "Mountain View",
+    "coord": {
+      "lat": 37.3861,
+      "lon": -122.0838
+    },
+    "country": "US",
+    "population": 74066,
+    "timezone": -28800,
+    "sunrise": 1580742613,
+    "sunset": 1580780038
+  }
+}
